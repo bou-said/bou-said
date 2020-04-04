@@ -1,0 +1,74 @@
+ol {
+    float: left;
+}
+
+
+.facebook {
+    border-radius: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    background-color: #537cbe;
+    color: white;
+}
+
+.twitter {
+    border-radius: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    background-color: #77cdf0;
+    color: white;
+
+}
+
+.linkedin {
+    border-radius: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    background-color: #0e85c9;
+    color: white;
+
+}
+
+.instagram {
+    border-radius: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    background-color: #69696b;
+    color: white;
+
+}
+
+.youtube {
+    border-radius: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    background-color: #e9654c;
+    color: white;
+
+}
+

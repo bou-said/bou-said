@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/contactpaginaCSS.css">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <title>Contactpagina</title>
+</head>
+<body class="bg-dark">
+<div class="container">
+    <div class="row">
+
+        <div class="col" style="color: #ffffff">
+            <h2>Wenst u lid te worden?</h2>
+            <p>Gelieve onderstaande contactformulier in te vullen</p>
+
+
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom01">Voornaam</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Voornaam" required>
+
+
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom02">Achternaam</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Achternaam"
+                               required>
+
+                    </div>
+
+                </div>
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">E-mailadres</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="validationCustomUsername" placeholder="E-mail"
+                                   required>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom05">Postcode</label>
+                        <input type="text" class="form-control" id="validationCustom05" placeholder="Postcode" required>
+
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col mb-3">
+                        <label for="validationCustom06">Opmerking</label>
+                        <textarea type="text" class="form-control" id="validationCustom06" placeholder="Opmerkingen"
+                                  required style="height:10em">
+
+                        </textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            Akkoord met algemene voorwaarden
+                        </label>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-outline-light" type="submit">Word lid</button>
+            </form>
+        </div>
+    </div>
+    <div class="row mt-5 mx-0">
+
+        <ul class="favicons pl-0" style="text-align: center; margin: auto">
+            <ol><a href="https://www.facebook.com/ThomasMoreBE" class="facebook-link">
+                <span class="facebook"><i class="fab fa-facebook-f"></i></span>
+                <span class="sr-only">facebook</span></a></ol>
+            <ol><a href="https://twitter.com/ThomasMoreBE" class="twitter-link">
+                <span class="twitter"><i class="fab fa-twitter"></i></span>
+                <span class="sr-only">twitter</span></a></ol>
+            <ol><a href="https://www.linkedin.com/school/thomas-more-hogeschool" class="linkedin-link">
+                <span class="linkedin"><i class="fab fa-linkedin-in"></i></span>
+                <span class="sr-only">linkedin</span></a></ol>
+            <ol><a href="https://www.instagram.com/thomasmore.be/" class="instagram-link">
+                <span class="instagram"><i class="fab fa-instagram"></i></span>
+                <span class="sr-only">instagram</span></a></ol>
+            <ol class="video" data-toggle="modal" data-target="#YouTubeModal" style="cursor: pointer">
+                <span class="youtube"><i class="fab fa-youtube"></i></span>
+                <span class="sr-only">youtube</span></a>
+            </ol>
+        </ul>
+
+    </div>
+
+    <div class="row mx-0 my-5">
+        <div class="col-12">
+            <div class="maps" style="text-align: center; margin: auto">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40134.11280420804!2d4.459201497915317!3d51.0460330177428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3e4e135518b27%3A0x260f597a668bd203!2sThomas%20More%20Campus%20De%20Nayer!5e0!3m2!1snl!2sbe!4v1575885274273!5m2!1snl!2sbe"
+                        width="100%" height="430" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="YouTubeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header ">
+                <h4 class="modal-title" id="myModalLabel">Derby's in 2004 te Mechelen...</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/4RkZ4y1VXhs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
